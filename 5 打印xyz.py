@@ -1,0 +1,16 @@
+x=int(input("x:"))
+y=int(input("y:"))
+z=int(input("z:"))
+if(x>y):
+    t=x
+    x=y
+    y=t
+if(z<y):
+    t=z
+    z=y
+    y=t
+    if(x>y):
+        t=x
+        x=y
+        y=t
+print(x,y,z)
